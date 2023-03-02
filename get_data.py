@@ -11,3 +11,5 @@ def get_data_():
   X = np.hstack([raw_df.values[::2, :], raw_df.values[1::2, :2]])
   y = raw_df.values[1::2, 2]
   return X,y
+
+
