@@ -6,6 +6,11 @@ from get_data import *
 
 def main():
 
+    '''
+    This code is used to train our Linear Regression algorithm. We return the model that we will use for prediction 
+    and also the X_test and y_test. This code also prints the value of theta based on the model we want to use(Normal Equation or CGS) 
+    '''
+
     # Instanciate the LinearRegression class 
     X,y= get_data_()
 
@@ -27,3 +32,5 @@ if __name__=='__main__':
     print('Started!')
     main()
     print('Done')
+
+    
